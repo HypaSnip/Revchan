@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.Search-Section{
+    padding: 20px 0px;
+    background-color: lightskyblue;
+    text-align: center;
+}
+#Search-field{
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(59, 152, 210);
+    font-weight: bold;
+}
+::placeholder{
+    color: rgb(59, 152, 210); 
+}
+#Search-button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(59, 152, 210);
+}
+.Category-section{
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+
+    }
+.Category-button{
+    border: solid 2px rgb(59, 152, 210);
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(59, 152, 210);
+    margin: 5px;
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(59, 152, 210);
+    color: #ffffff;
+}
+#Colleges{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 500px;
+    margin-top: 20px;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10px;
+    
+  }
+  .container {
+    padding-top: 1em;
+    color: rgb(59, 152, 210);
+
+  }
+  
+  .hide {
+    display: none;
+  }
+  @media screen and (max-width: 720px) {
+    img {
+      max-width: 100%;
+      object-fit: contain;
+      height: 10em;
+    }
+    .card {
+      max-width: 10em;
+      margin-top: 1em;
+    }
+    #products {
+      grid-template-columns: auto auto;
+      grid-column-gap: 1em;
+    }
+
+  }
+.About-section{
+  padding: 20px 50px;
+  background-color: white;
+  color: rgb(59, 152, 210);
+  
+}
+h2{
+  text-align: center;
+}
+.description-section{
+  display: flex;
+  border: solid 4px rgb(59, 152, 210);
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 20px;
+}
+.description{
+  margin-left: 20px;
+}
+img{
+  border-radius: 50%;
+}

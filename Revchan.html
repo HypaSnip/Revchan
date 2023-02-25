@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Revchan.css">
+        <title>
+            For International Students by International Students
+        </title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!--Search Engine Section-->
+        <div class="Search-Section">
+            <input type="text" placeholder="Search School..." id="Search-field">
+            <button id="Search-button">
+                Search
+            </button>
+        </div>
+        <!--Category Buttons Section-->
+        <div class="Category-section">
+            <button class="Category-button" onclick="filterProduct('All Colleges')">
+                All Colleges
+            </button> 
+            <button class="Category-button" onclick="filterProduct('100%')">
+                Colleges meeting 100% of need
+            </button> 
+            <button class="Category-button" onclick="filterProduct('Need-blind')">
+                Need-blind Colleges
+            </button>
+            <button class="Category-button" onclick="filterProduct('Need-aware')">
+                Need-aware Colleges
+            </button>
+            <button class="Category-button" onclick="filterProduct('Generous-Aid')">
+                Generous Aid Colleges
+            </button>
+        </div>
+        <!--School Cards Section-->
+        <div id="Colleges"></div>
+        <!--About the Creator Section-->
+        <div class="About-section">
+            <h2>
+                About the creator
+            </h2>
+            <div class="description-section">
+                <img src="C:\Users\ytaka\OneDrive\添付ファイル\画像\Camera Roll\Ken2.JPG" width = "180px">
+                <div class="description">
+                <p>My name is Ken Takahashi, I am a student and entrepreneur from Guetersloh, Germany. During my application process, I struggled with finding affordable schools. It took me quite a while but I ultimately came up with a list of budget friendly schools. And after stumbling across the IntltoUSA subreddit, I got engaged in helping prospective international students with the same problem I had. Fast forward a few months and I decided to create a website to find match schools based on ones profile and that's how Revchan (a word derived from the phrase Reverse Chance Me) came into life. <br>
+                If you have any questions, please don't hesitate to reach out to me on <a href="https://www.reddit.com/user/Ken_Takahashi" target="_blank">Reddit</a> or contact me via email at: <a href="mailto: kxn.takahashi@gmail.com">kxn.takahashi@gmail.com</a>
+                </p>
+                </div>
+            </div>
+        </div>
+        <!--JavaScript Source-->
+        <script src="Revchan.js"></script> 
+    </body>
+</html>
